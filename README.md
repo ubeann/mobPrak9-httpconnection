@@ -10,7 +10,8 @@
 ## Technologies
 
 - phpmyadmin
-- Android studio
+- Android Studio
+- Android API 30
 - xampp
 
 [Back To The Top](#read-me)
@@ -23,16 +24,13 @@
 
 > Buka xammp, jalanin apache & MySQL
 
-> Buka phpmyadmin
-
-> Buat Database baru dengan nama "mobile"
-
->Buat tabel "users" dengan kolom "id", "username", "password"
+> Buka phpmyadmin > Buat Database baru dengan nama "mobile" > Buat tabel "users" dengan kolom "id", "username", "password"
 
 >Pada file URLLOGIN.java & Database.java, pastikan port pada String url sama dengan Apache port di xampp
 >>Apache port di xampp\
-![stringJava](test/stringJava.png)\
->>port di URL\
+![stringJava](test/stringJava.png)
+
+>>Port di URL\
 ![stringJava](test/xamppPort.png)
 
 ---
