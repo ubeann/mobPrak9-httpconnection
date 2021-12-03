@@ -1,12 +1,9 @@
 package com.example.modul9_httpconnection;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,24 +17,9 @@ public class MainActivity extends AppCompatActivity {
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, URLImage.class));
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, URLLogin.class));
-            }
-        });
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, Database.class));
-            }
-        });
+        btn1.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, URLImage.class)));
+        btn2.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, URLLogin.class)));
+        btn3.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, Database.class)));
 
     }
 }

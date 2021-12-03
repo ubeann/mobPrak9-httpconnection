@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,27 +15,24 @@
         android:textSize="24sp"
         android:textAlignment="center"
         android:layout_marginBottom="24dp"
-        android:text="Selamat Datang"/>
+        android:text="MODUL 9"/>
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:drawableLeft="@drawable/img"
         android:text="URL Image"/>
     <Button
         android:id="@+id/btn2"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:drawableLeft="@drawable/login"
         android:text="URL Login"/>
     <Button
         android:id="@+id/btn3"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/database"
         android:text="Database"/>
 
 </LinearLayout>
