@@ -26,7 +26,7 @@ import java.net.URL;
 public class URLLogin extends AppCompatActivity {
     EditText etUsername, etPassword, etStatus;
     Button btnLogin;
-    String url="http://10.0.2.2:8080/mobile/login.php";
+    String url="http://10.0.2.2:80/mobile/login.php";
     String result = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,7 @@ public class URLLogin extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                url="http://10.0.2.2:8080/mobile/login.php";
+                url="http://10.0.2.2:80/mobile/login.php";
                 url +="?user="+etUsername.getText().toString()+"&password="+etPassword.getText().toString();
                 getRequest();
             }

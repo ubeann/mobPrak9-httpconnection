@@ -10,20 +10,33 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"
+        android:text="Selamat Datang"/>
+
     <Button
         android:id="@+id/btn1"
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:text="URLImage"/>
+        android:layout_marginBottom="12dp"
+        android:drawableLeft="@drawable/img"
+        android:text="URL Image"/>
     <Button
         android:id="@+id/btn2"
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:text="URLLogin"/>
+        android:layout_marginBottom="12dp"
+        android:drawableLeft="@drawable/login"
+        android:text="URL Login"/>
     <Button
         android:id="@+id/btn3"
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/database"
         android:text="Database"/>
 
 </LinearLayout>
